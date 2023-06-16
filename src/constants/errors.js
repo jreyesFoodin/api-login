@@ -1,0 +1,31 @@
+module.exports = Object.freeze({
+  AUTH: {
+    INVALID_USER: 'Usuario invalido',
+    INACTIVE_USER: 'Usuario inactivo',
+    UNAUTHORIZED: 'No tienes acceso',
+    INVALID_TOKEN: 'Su sesión ha expirado',
+    INCORRECT_ACCESS: 'Accesos Incorrectos',
+    SUSPENDED_ACCOUNT: 'Su cuenta se encuentra suspendida, contacte a un administrador',
+    UNAUTHORIZED_USER: 'Usuario no autorizado',
+    IDENTICAL_PASSWORD: 'La contraseña no puede ser la misma que la actual',
+    ERROR_SIGNIN: 'Credenciales invalidas, intente nuevamente',
+    ERROR_VALIDATE_SESSION: 'Error al validar la sessión',
+    ERROR_FORGOT_PASSWORD: 'Error al enviar el cambio de contraseña',
+    ERROR_RESET_PASSWORD: 'No es posible actualizar la contraseña',
+    ERROR_UPDATE_PASSWORD: 'No es posible actualizar la contraseña',
+    ERROR_GETUSERBYID: 'No se pudo encontrar al usuario',
+    ERROR_CHANGEPROFILE: 'Error al no poder actualizar el perfil del usuario',
+    incomplete_data_user_create: 'Es necesario completar nombre y correo electrónico',
+    EMAIL_EXIST: 'El correo electrónico ya está registrado',
+    PASSWORD_NOT_FOUND: 'Ingrese una contraseña válida',
+    USER_NOT_CREATED: 'Ocurrio un error al crear el usuario',
+    INCOMPLETE_DATA_USER_UPDATED: 'Ingrese todos los campos a actualizar',
+    USER_NOT_UPDATED: 'El usuario no pudo ser actualizado',
+    USER_NOT_UPDATED_PERMISSIONS_VIEWS: 'No se ha podido actualizar las vistas asignadas',
+    USER_NOT_FOUND: 'El usuario no existe.',
+    USERS_NOT_FOUND: 'No se encontraron usuarios.',
+    INVALID_MAIL: 'Correo no válido',
+    EMAIL_SENDING_ERROR: 'No se pudo enviar correo',
+    PASSWORD_UPDATE_ERROR: 'No se pudo actualizar la contraseña'
+  }
+})
