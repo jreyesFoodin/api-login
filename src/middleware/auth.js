@@ -11,10 +11,9 @@ module.exports = () => async (ctx, next) => {
         'id',
         'active'
       ])
-        .from('user_doctor')
-        .where('user_doctor.id', jwtDecoded.id)
+        .from('user_login')
+        .where('user_login.id', jwtDecoded.id)
         .andWhere('active', true)
-
       let rolTestPassed = true
       if (rolTestPassed && user) {
         ctx.user = user

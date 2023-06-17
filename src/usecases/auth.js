@@ -77,8 +77,8 @@ module.exports = {
         'user_login.secondLastName',
         'user_login.phone'
       ])
-        .from('user_doctor')
-        .where('user_doctor.id', userToken.id)
+        .from('user_login')
+        .where('user_login.id', userToken.id)
 
       return {
         data: {

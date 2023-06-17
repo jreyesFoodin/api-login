@@ -24,7 +24,6 @@ if (environment === 'production') {
 app.use(cors())
 app.use(koaBody({multipart: true, formidable: {maxFileSize: 10000000}}))
 app.use(bodyParser())
-// app.use(logger)
 app.use(router.routes()).use(router.allowedMethods())
 app.use(serve({rootDir: 'public', rootPath: '/public'}))
 
